@@ -1,0 +1,16 @@
+/node_modules
+/.idea
+/.bsp
+/.bloop
+/.metals
+.idea
+/.vscode
+/.dist
+
+# sbt
+target/
+/project/.bloop
+/project/project
+metals.sbt
+
+yarn.lock

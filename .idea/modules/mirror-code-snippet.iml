@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="root [file:/Users/chenyizhou/MyProject/mirror-code-snippet/]" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_16">
+    <output url="file://$MODULE_DIR$/../../target/scala-3.1.3/classes" />
+    <output-test url="file://$MODULE_DIR$/../../target/scala-3.1.3/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../..">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/scala" isTestSource="false" packagePrefix="per.cyz.snippet" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/scala" isTestSource="true" packagePrefix="per.cyz.snippet" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="sbt: com.github.japgolly.microlibs:compile-time_sjs1_3:4.0.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.github.japgolly.microlibs:types_sjs1_3:4.0.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.github.japgolly.scalajs-react:callback_sjs1_3:2.1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.github.japgolly.scalajs-react:core-generic_sjs1_3:2.1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.github.japgolly.scalajs-react:core_sjs1_3:2.1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.github.japgolly.scalajs-react:facade_sjs1_3:2.1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.github.japgolly.scalajs-react:util-fallbacks_sjs1_3:2.1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.github.japgolly.scalajs-react:util_sjs1_3:2.1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.lihaoyi:sourcecode_sjs1_3:0.2.8:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.olvind:scalablytyped-runtime_sjs1_3:2.4.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-js:scalajs-dom_sjs1_3:2.0.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-js:scalajs-library_2.13:1.10.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-js:scalajs-test-bridge_2.13:1.10.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-js:scalajs-test-interface_2.13:1.10.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.8:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala3-library_sjs1_3:3.1.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalablytyped:csstype_sjs1_3:3.1.0-22cb9f:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalablytyped:prop-types_sjs1_3:15.7.5-d35ba4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalablytyped:react-dom_sjs1_3:17.0.11-341d7c:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalablytyped:react_sjs1_3:17.0.38-640e54:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalablytyped:scheduler_sjs1_3:0.16.2-af19b7:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalablytyped:std_sjs1_3:4.3-f3fcd6:jar" level="project" />
+  </component>
+</module>
