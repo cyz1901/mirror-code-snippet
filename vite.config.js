@@ -1,14 +1,13 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import requireTransform from "vite-plugin-require-transform";
+import { viteCommonjs } from '@originjs/vite-plugin-commonjs'
+//import requireTransform from "vite-plugin-require-transform";
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     react(),
-    requireTransform({
-      fileRegex: /.js$|.vue$/,
-    }),
+    viteCommonjs(),
   ],
   base: "./",
   server: {
@@ -18,3 +17,4 @@ export default defineConfig({
     https: false,
   },
 });
+

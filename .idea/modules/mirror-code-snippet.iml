@@ -21,6 +21,7 @@
     <orderEntry type="library" name="sbt: com.github.japgolly.scalajs-react:util_sjs1_3:2.1.1:jar" level="project" />
     <orderEntry type="library" name="sbt: com.lihaoyi:sourcecode_sjs1_3:0.2.8:jar" level="project" />
     <orderEntry type="library" name="sbt: com.olvind:scalablytyped-runtime_sjs1_3:2.4.2:jar" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="sbt: com.sourcegraph:semanticdb-javac:0.7.4:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-js:scalajs-dom_sjs1_3:2.0.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-js:scalajs-library_2.13:1.10.1:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.scala-js:scalajs-test-bridge_2.13:1.10.1:jar" level="project" />
@@ -28,10 +29,13 @@
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.8:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala3-library_sjs1_3:3.1.3:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scalablytyped:csstype_sjs1_3:3.1.0-22cb9f:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalablytyped:monaco-editor__react_sjs1_3:4.4.5-a79e44:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalablytyped:monaco-editor_sjs1_3:0.34.0-1c3d03:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scalablytyped:prop-types_sjs1_3:15.7.5-d35ba4:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scalablytyped:react-dom_sjs1_3:17.0.11-341d7c:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scalablytyped:react_sjs1_3:17.0.38-640e54:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scalablytyped:scheduler_sjs1_3:0.16.2-af19b7:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scalablytyped:std_sjs1_3:4.3-f3fcd6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalablytyped:tauri-apps__cli_sjs1_3:1.0.5-5831d2:jar" level="project" />
   </component>
 </module>

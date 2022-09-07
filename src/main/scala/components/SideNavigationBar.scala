@@ -7,30 +7,22 @@ object SideNavigationBar {
 
   val sideNavigationBar = ScalaFnComponent[Unit] { _ =>
     <.div(
-      ^.className := "drawer",
+      ^.className := "drawer drawer-mobile",
       <.input(
         ^.id := "my-drawer",
         ^.`type` := "checkbox",
         ^.className := "drawer-toggle"
       ),
       <.div(
-        ^.className := "drawer-content",
-        <.label(
-          ^.`for` := "my-drawer",
-          ^.className := "btn btn-primary drawer-button",
-          "Open drawer"
-        )
+        ^.className := "drawer-content"
       ),
       <.div(
         ^.className := "drawer-side",
         <.label(^.`for` := "my-drawer", ^.className := "drawer-overlay"),
         <.ul(
-          ^.className := "menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content",
+          ^.className := "menu p-0 overflow-y-auto w-12 bg-base-100 text-base-content",
           <.li(
-            <.a("Sidebar Item 1")
-          ),
-          <.li(
-            <.a("Sidebar Item 2")
+            <.a("C")
           )
         )
       )
