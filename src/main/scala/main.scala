@@ -5,12 +5,17 @@ import japgolly.scalajs.react.ScalaFnComponent
 import org.scalajs.dom
 import components.SideNavigationBar
 
-import pages.Home
+import pages.HomePage
+import routers.Router as AppRouter
+import japgolly.scalajs.react.extra.router.BaseUrl
+import japgolly.scalajs.react.extra.router.Router
 
 @main
 def main: Unit =
-  Home
-    .home()
-    .renderIntoDOM(
-      dom.document.getElementById("container")
-    )
+  // HomePage
+  //   .home()
+  //   .renderIntoDOM(
+  //     dom.document.getElementById("container")
+  //   )
+  val router = Router(baseUrl = BaseUrl.fromWindowOrigin / "index.html", cfg = AppRouter.routerConfig)
+  router().renderIntoDOM(dom.document.getElementById("container"))

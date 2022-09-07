@@ -3,7 +3,7 @@
 module.exports = {
   content: [
     "./index.html",
-    "./optjs/*.{vue,js,ts,jsx,tsx}",
+    "./optjs/*.{vue,js,ts,jsx,tsx,map}",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {

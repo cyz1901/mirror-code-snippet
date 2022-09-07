@@ -22,7 +22,7 @@ lazy val root = project
       scala.sys.process.Process("yarn", baseDirectory.value).!
       baseDirectory.value
     },
-    stIgnore := List("esbuild-darwin-arm64"),
     libraryDependencies += "com.github.japgolly.scalajs-react" %%% "core" % "2.1.1",
+    libraryDependencies += "com.github.japgolly.scalajs-react" %%% "extra" % "2.1.1",
     Compile / fastOptJS / crossTarget := file("optjs")
   )
