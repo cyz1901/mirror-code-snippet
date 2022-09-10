@@ -3,7 +3,6 @@ package per.cyz.snippet
 import japgolly.scalajs.react.vdom.html_<^.*
 import japgolly.scalajs.react.ScalaFnComponent
 import org.scalajs.dom
-import components.SideNavigationBar
 
 import pages.HomePage
 import routers.Router as AppRouter
