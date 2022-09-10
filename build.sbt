@@ -18,6 +18,7 @@ lazy val root = project
     },
     useYarn := true,
     stFlavour := Flavour.ScalajsReact,
+    stIgnore := List("esbuild-darwin-arm64"),
     externalNpm := {
       scala.sys.process.Process("yarn", baseDirectory.value).!
       baseDirectory.value

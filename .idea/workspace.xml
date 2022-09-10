@@ -5,24 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ed7f160-5d39-4763-ac8f-7f9a5a042d77" name="变更" comment="init">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_8_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/mirror-code-snippet-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mirror-code-snippet-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/mirror-code-snippet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mirror-code-snippet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/optjs/mirror-code-snippet-fastopt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/optjs/mirror-code-snippet-fastopt.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/optjs/mirror-code-snippet-fastopt.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/optjs/mirror-code-snippet-fastopt.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/components/SideNavigationBar.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/components/SideNavigationBar.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/pages/Home.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/pages/Home.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

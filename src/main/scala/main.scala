@@ -12,10 +12,8 @@ import japgolly.scalajs.react.extra.router.Router
 
 @main
 def main: Unit =
-  // HomePage
-  //   .home()
-  //   .renderIntoDOM(
-  //     dom.document.getElementById("container")
-  //   )
-  val router = Router(baseUrl = BaseUrl.fromWindowOrigin / "index.html", cfg = AppRouter.routerConfig)
+  val router = Router(
+    baseUrl = BaseUrl.fromWindowOrigin / "index.html",
+    cfg = AppRouter.routerConfig
+  )
   router().renderIntoDOM(dom.document.getElementById("container"))
