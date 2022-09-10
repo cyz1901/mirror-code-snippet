@@ -6,6 +6,7 @@ import japgolly.scalajs.react.{Callback, ScalaFnComponent}
 import japgolly.scalajs.react.extra.router.RouterCtl
 import typings.monacoEditorReact.components.{React => ReactMonacoEditor}
 import typings.monacoEditorReact.mod.EditorProps
+import components.FileColumnComponent
 
 object HomePage {
 
@@ -13,6 +14,7 @@ object HomePage {
 
   val home = ScalaFnComponent[Props] { _ =>
     val props = EditorProps()
+      .setWidth("auto")
       .setHeight("100%")
       .setDefaultLanguage("scala")
       .setOnValidate(_ => Callback(println("hello")))
@@ -27,7 +29,8 @@ object HomePage {
         ^.className := "drawer-toggle"
       ),
       <.div(
-        ^.className := "drawer-content",
+        ^.className := "drawer-content grid grid-cols-[128px_100%]",
+        FileColumnComponent.fileColumn(),
         ReactMonacoEditor.withProps(props)
       ),
       <.div(
@@ -36,7 +39,7 @@ object HomePage {
         <.ul(
           ^.className := "menu p-0 overflow-y-auto w-12 bg-base-100 text-base-content",
           <.li(
-            <.a("C")
+            <.a("C"),
           )
         )
       )
